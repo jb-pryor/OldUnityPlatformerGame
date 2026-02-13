@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc676d28fac54420a85bf0cb982a8cbc, type: 3}
+  m_Name: heavyBanditDialogue
+  m_EditorClassIdentifier: 
+  npcName: Heavy Bandit
+  npcPortrait: {fileID: 6704158393033943112, guid: a22a1de872ec24b139adcecd6eb8db89, type: 3}
+  dialogueLines:
+  - Oh good a mortal!
+  - I've been standing here for centuries, or maybe just five minutes... I can't
+    tell the difference.
+  - What do you need? Some Advice?
+  - Watch your step!
+  - Oh not funny..my apologies. Would you like more philosophical advice?
+  - '"The sinner can no more raise himself from the deadness of sin than Lazarus,
+    who has been dead for four days...'
+  - Except when Jesus came."
+  - Here is some unsolicited advice for you...
+  - Good luck!
+  autoProgressLines: 010101010101010101
+  endDialogueLines: 000000000000000000
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  choices:
+  - dialogueIndex: 2
+    choices:
+    - Yes
+    - No
+    nextDialogueIndexes: 0300000007000000
+    actions: 
+  - dialogueIndex: 4
+    choices:
+    - Yes
+    - No
+    nextDialogueIndexes: 0500000007000000
+    actions: 
